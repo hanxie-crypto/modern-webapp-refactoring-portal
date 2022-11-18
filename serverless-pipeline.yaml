@@ -1,5 +1,4 @@
 name: "cms web portal"
-
 env:
   name: serverless
 steps:
