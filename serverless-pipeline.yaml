@@ -1,7 +1,6 @@
 name: "cms web portal"
 env:
   name: serverless
-  age: 2
 steps:
   - run: npm i @serverless-devs/s -g
   - run: s config add --AccountID ${{secrets.account}}  --AccessKeyID ${{secrets.ak}}  --AccessKeySecret ${{secrets.sk}} -a default -f
